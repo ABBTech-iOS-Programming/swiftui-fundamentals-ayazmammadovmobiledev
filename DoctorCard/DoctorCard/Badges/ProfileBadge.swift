@@ -45,7 +45,7 @@ struct ProfileBadge: View {
             image
             
             VStack (spacing: 4) {
-                title
+                BlackBoldNameLabel(nameText: titleText)
                 subTitle
             }
             Spacer()

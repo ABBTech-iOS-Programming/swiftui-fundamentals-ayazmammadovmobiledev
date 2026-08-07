@@ -14,10 +14,19 @@ struct ContentView: View {
 
  
     var body: some View {
-        VStack {
-            UpCommingCard()
        
-        }.padding(.horizontal, 16).background(Color.white)
+        VStack (spacing: 84) {
+            HStack {
+                UpCommingCard()
+            }.padding(.horizontal, 16)
+            
+            HStack {
+                AppointmentCard()
+            }.padding(.horizontal, 32)
+           
+            Spacer()
+       
+        }.padding(.top, 39)
         
             
          

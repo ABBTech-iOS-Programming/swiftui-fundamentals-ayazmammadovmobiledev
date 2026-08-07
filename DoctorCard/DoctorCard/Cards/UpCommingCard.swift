@@ -65,8 +65,10 @@ struct UpCommingCard : View {
         .background(
             Image("UpCommingBackground")
                 .resizable()
-                .scaledToFit()
+                .scaledToFill()
         )
+        .cornerRadius(16)
+      
        
      
        
