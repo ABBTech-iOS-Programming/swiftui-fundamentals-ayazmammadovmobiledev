@@ -11,9 +11,8 @@ import SwiftUI
 struct DoctorCardApp: App {
     var body: some Scene {
         WindowGroup {
-            ScrollView {
-                ContentView()
-            }.background(.backgroundApp)
+            DoctorScreenView()
+           
          
                
         }

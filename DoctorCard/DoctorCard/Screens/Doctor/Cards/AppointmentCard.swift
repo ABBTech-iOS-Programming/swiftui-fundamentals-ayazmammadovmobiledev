@@ -62,6 +62,7 @@ struct AppointmentCard : View {
                     Spacer()
                     RatingBadge(priceText: "4.5")
                 }
+                
                 PriceTextLabel(priceText: "240.000")
                
                

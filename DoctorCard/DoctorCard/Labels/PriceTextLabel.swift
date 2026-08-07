@@ -19,10 +19,10 @@ struct PriceTextLabel: View {
 
  
     var body: some View {
-        Text("Rp \(priceText)").font(.custom("PlusJakartaSans-Bold", size: 14))
+        Text("Rp \(priceText)").font(.custom("PlusJakartaSans-Bold", size: 18))
             .foregroundStyle(.red)
-        +
-        Text("/hours").font(.custom("PlusJakartaSans-Bold", size: 14))
++
+        Text("/hours").font(.custom("PlusJakartaSans-Bold", size: 16))
             .foregroundStyle(.textGray)
         
            

@@ -17,6 +17,7 @@ struct RatingBadge: View {
             .resizable()
             .scaledToFill()
             .frame(width: 24,height: 24)
+          
     }
     
   
