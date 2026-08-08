@@ -19,5 +19,3 @@ struct DoctorCardApp: App {
       
     }
 }
-
-
